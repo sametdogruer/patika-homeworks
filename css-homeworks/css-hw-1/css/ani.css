@@ -1,0 +1,18 @@
+body {
+  
+    background-color: rgb(227, 222, 255);
+    color: rgb(99, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+  }
+
+p {
+
+  font-size: 20px;
+}
+ul {
+font-size: 20px;
+}
+h2 {
+  font-size: 22px;
+}
