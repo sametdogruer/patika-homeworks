@@ -1,0 +1,46 @@
+.body{
+    background-color: rgb(255, 255, 255);
+
+    
+}
+/**************Burası Logo Kısmının olduğu yer**************/
+.logo {
+width: 351px;
+height: 113px;
+margin: 0 auto 10px auto;
+}
+
+/*************Burası Arama Kısmının olduğu yer**************/
+.searchBox {
+background-color: #eeeeee;
+width: 1440px;
+height: 70px;
+text-align: center;
+font-size: 16px;
+font-family: 'Times New Roman', Times, serif;
+color: #000;
+}
+.aramaKutusu {
+width: 320px;
+height: 15px;
+}
+.button1 {
+    
+}
+
+.box1{
+    background:#7EE5DA ;
+width: 300px;
+height: 80px;
+margin: 3px auto;
+
+}
+
+.box2{
+    background: #70ccc2;
+    width: 150px;
+    height: 80px;
+    font-size: small
+    
+    
+}
