@@ -1,69 +1,78 @@
-.body{
-    background-color: rgb(255, 255, 255);
+.body {
+  background-color: rgb(255, 255, 255);
+}
 
-    
+p{
+    margin: 0;
+}
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 /**************Burası Logo Kısmının olduğu yer**************/
 .logo {
-width: 351px;
-height: 113px;
-margin: 0 auto 10px auto;
+  width: 351px;
+  height: 113px;
+  margin: 0 auto 10px auto;
 }
 
 /*************Burası Arama Kısmının olduğu yer**************/
 .searchBox {
-background-color: #eeeeee;
-width: 1440px;
-height: 70px;
-text-align: center;
-font-size: 16px;
-font-family: 'Times New Roman', Times, serif;
-color: #000;
+  background-color: #eeeeee;
+  width: 1440px;
+  height: 70px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  color: #000;
 }
 .aramaKutusu {
-width: 320px;
-height: 15px;
-}
-.button1 {
-    
+  width: 320px;
+  height: 15px;
 }
 
-.boxes{
-    float: left;
-    padding: 10px;
-
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2px;
+  height: 76px;
+  width: 1440px;
+  margin: 0 auto;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-        .box1{
-            background:#7EE5DA ;
-       width: 445px;
-       height: 65px;
-       margin-left: 62px;
-       margin-right: 2px;
-        }
+.box1 {
+  background: #7ee5da;
+  width: 40%;
+  height: 100%;
+}
 
-        .box2 {
-             background: #70ccc2;
-        width: 215px;
-        height: 65px;
-        font-size: small;
-        margin-right: 2px;
-        
+.box2 {
+  background: #70ccc2;
+  width: 20%;
+  height: 100%;
+  border-left: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255);
+  font-size: 12px;
+   
+}
 
-        }
+.box3 {
+  background: #62b3aa;
+  width: 40%;
+  height: 100%;
+}
 
-        .box3{
-            background:#62B3AA ;
-        width: 565px;
-        height: 65px;
-        font-size: small;
+.foot {
+  font-size: small;
+}
 
-        }
-
-        .foot{
-            font-size: small;
-        }
-
-        .clear{
-            clear: both;
-        }
