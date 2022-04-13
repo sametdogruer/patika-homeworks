@@ -28,19 +28,42 @@ height: 15px;
     
 }
 
-.box1{
-    background:#7EE5DA ;
-width: 300px;
-height: 80px;
-margin: 3px auto;
+.boxes{
+    float: left;
+    padding: 10px;
 
 }
 
-.box2{
-    background: #70ccc2;
-    width: 150px;
-    height: 80px;
-    font-size: small
-    
-    
-}
+        .box1{
+            background:#7EE5DA ;
+       width: 445px;
+       height: 65px;
+       margin-left: 62px;
+       margin-right: 2px;
+        }
+
+        .box2 {
+             background: #70ccc2;
+        width: 215px;
+        height: 65px;
+        font-size: small;
+        margin-right: 2px;
+        
+
+        }
+
+        .box3{
+            background:#62B3AA ;
+        width: 565px;
+        height: 65px;
+        font-size: small;
+
+        }
+
+        .foot{
+            font-size: small;
+        }
+
+        .clear{
+            clear: both;
+        }
